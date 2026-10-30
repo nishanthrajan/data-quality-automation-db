@@ -14,7 +14,9 @@ Production-grade testing framework designed to validate fund valuation data pipe
    ```bash
    pip install -r requirements.txt
 2. Run data generator
-python src/data_generator.py
+   ```bash
+   python src/data_generator.py
 
 3. Run Pytest suite
-pytest --html=reports/output/test_report.html --self-contained-html
+   ```bash
+   pytest --html=reports/output/test_report.html --self-contained-html
