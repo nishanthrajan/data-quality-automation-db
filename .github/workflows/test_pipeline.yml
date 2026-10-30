@@ -35,7 +35,7 @@ jobs:
         pytest --html=reports/output/test_report.html --self-contained-html
 
     - name: Upload Test Report Artifact
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: data-quality-test-report
         path: reports/output/test_report.html
